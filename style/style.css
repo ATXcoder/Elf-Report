@@ -1,0 +1,124 @@
+/* font-family: 'Tangerine', cursive;*/
+/* font-family: 'The Girl Next Door', cursive;*/
+/* font-family: 'Aref Ruqaa', serif; */
+/* font-family: 'Architects Daughter', cursive; */
+
+
+html{
+    background-color: #333;
+}
+
+#Banner {
+    width: 100%;
+    height: 100px;
+    background-image: url("../media/stripe.png");
+}
+
+
+#Banner img {
+    float: left;
+}
+
+#banner_title{
+    padding-top: 1.7%;
+    margin-left: 43%;
+    text-shadow: 2px 1px #000;
+    color: blue;
+    width: 320px;
+    height: 60px;
+    font-size: 3em;
+
+}
+
+
+
+/* REPORT */
+#Report {
+    margin-top: 60px;
+}
+
+.ReportHeader{
+    border: 2px solid black;
+    height: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.8em;
+    color: white;
+    font-weight: 400;
+    background-color: forestgreen;
+}
+
+
+#Report table {
+    width: 100%;
+}
+
+td {
+  /*position: relative;*/
+
+}
+
+.top-cell{
+    position: absolute;
+    top: 0;
+}
+
+.stats th {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.8em;
+    color: white;
+    font-weight: 400;
+    background-color: forestgreen;
+}
+
+#kid_stats td{
+    font-family: 'Aref Ruqaa', serif;
+    font-size: 1.1em;
+}
+
+.stats td{
+    background-color: white;
+}
+
+.stats ul{
+    list-style: none;
+}
+
+.stats .nice li{
+    font-family: 'Aref Ruqaa', serif;
+    color: green;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left: 1.3em;
+}
+
+.stats .nice li:before {
+  content: "\f00c"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.stats .naughty li{
+    font-family: 'Aref Ruqaa', serif;
+    color: red;
+    font-weight: 600;
+    font-size: 1.2em;
+    padding-left: 1.3em;
+}
+
+.stats .naughty li:before {
+  content: "\f00d"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+#kid_stats .notes{
+    font-family: 'The Girl Next Door', cursive;
+    font-size: 1.2em;
+}
+
